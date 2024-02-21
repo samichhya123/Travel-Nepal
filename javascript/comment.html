@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script type="text/javascript">
+      function validate() {
+        var patt = /^[\w\-\.\+]+\@[a-zA-Z0-9\.\-]+\.[a-zA-z0-9]{2,4}$/;
+        var v = document.getElementById("elem").value;
+        if (v.match(patt)) {
+          alert("valid Email");
+        } else {
+          alert("Invalid Email");
+          document.getElementById("elem").value = "";
+          document.getElementById("elem").focus();
+        }
+      }
+    </script>
+    <form>
+      Email ID: <input type="text" id="elem" />
+      <input type="button" onclick="validate()" value="Check" />
+    </form>
+  </body>
+</html>

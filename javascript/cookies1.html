@@ -1,0 +1,30 @@
+<html>
+  <body>
+    <p id="greet"></p>
+    <script>
+      //setting up cookiesdocument.cookie =
+      document.cookie = "Samichhya Shrestha  ";
+
+      let z = new Date();
+      let hr = z.getHours();
+      if (hr < 12) {
+        document.getElementById(
+          "greet"
+        ).innerHTML = `hello ${document.cookie}, good morning`;
+      } else if (hr > 12 && hr < 17) {
+        document.getElementById(
+          "greet"
+        ).innerHTML = `hello ${document.cookie}, good afternoon`;
+      } else {
+        document.getElementById(
+          "greet"
+        ).innerHTML = `Hello ${document.cookie}, Good Evening!`;
+      }
+      //updating cookies
+
+      //deleting cookies
+      document.cookie =
+        "un=Pragati Dahal; expires=Mon, 25 sept 2023 12:00:00 UTC; ";
+    </script>
+  </body>
+</html>
