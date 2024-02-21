@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: mediumaquamarine;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
+
+header h1 {
+  margin: 0;
+}
+
+main {
+  padding: 2rem;
+}
+
+section.home {
+  border: 1px solid #ccc;
+  padding: 1rem;
+}
+
+section.home h2 {
+  margin-top: 0;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 0.5rem;
+}
+
+section.aboutme {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  background-image: url(https://png.pngtree.com/background/20210717/original/pngtree-blue-abstract-neutral-watercolor-background-picture-image_1443023.jpg);
+}
+
+section.aboutme h2 {
+  margin-top: 0;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 0.5rem;
+}

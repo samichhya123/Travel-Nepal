@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  text-align: center;
+  font-family: serif;
+  font-size: 40px;
+  font-family: Ubuntu;
+}
+header {
+  background-color: wheat;
+  color: #fff;
+  padding: 8px 0;
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+nav {
+  text-align: center;
+  background-color: #333;
+  padding: 0.2rem 0;
+  text-decoration: wavy;
+}
+nav ul li {
+  display: inline;
+  text-align: left;
+  margin-right: 90px;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-right: 0 1rem;
+}
+h2 {
+  text-align: center;
+  font-size: 20px;
+  color: rgb(193, 38, 89);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+p {
+  text-align: center;
+  font-size: 20px;
+  margin-left: 200px;
+}
+
+ul {
+  text-align: center;
+  font-size: 20px;
+  margin-left: 450px;
+}
+li {
+  margin-left: 1%;
+}
+
+.footer {
+  clear: both;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+}

@@ -1,0 +1,68 @@
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Ubuntu;
+  line-height: 1.2;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem 0;
+}
+
+nav {
+  text-align: center;
+}
+nav ul li {
+  display: inline;
+}
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 1rem;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #fff;
+}
+
+.about-us {
+  background-image: url("https://nht-api.nepalhikingteam.com/media/attachments/Rara-1024x683.jpg");
+  background-size: cover;
+
+  text-align: center;
+  padding: 5rem 0;
+}
+
+.about-us h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.about-us p {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  font-weight: 200;
+
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  padding: 10px 0;
+  background-color: #333;
+  color: #fff;
+}

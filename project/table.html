@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Images in Same Row</title>
+    <style>
+      .image-container {
+        text-align: center;
+      }
+
+      .image-container img {
+        display: inline-block;
+        margin: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="image-container">
+      <img src="kathmandu.png" alt="Image 1" />
+      <img src="pkr.jpg" alt="Image 2" />
+      <img src="lum.jpg".jpg" alt="Image 3">
+    </div>
+  </body>
+</html>
+<div class="app-header navbar-xs black box-shadow" style="width: 965px;">
+  <div class="app-header-wrapper">
+  <div class="navbar">
+  <a class="btn-slide-menu navbar-item pull-right hidden-lg-up m-a-0 m-l"><i class="fa fa-bars"></i></a>
+  <a href="/" class="navbar-brand">
+  <img class="hidden-folded hidden-md-down inline" alt="MyDramaList" src="/assets/logo_w.png" width="158" height="24">
+  <span class="hidden-folded hidden-lg-up inline">MDL</span><span class="beta4 label label-xs danger">v6.6</span></a>
+  
+  
+  
+  <ul class="nav navbar-nav pull-right header-user">
+      <li class="nav-item dropdown" style="margin-left: 0;">
+          <div class="nav-link"><div id="mdl-lang"><span>en</span></div></div>
+      </li>
+      <li class="nav-item dropdown nav-search hidden-lg-up">
+          <div class="nav-link" data-toggle="dropdown"><i class="far fa-search"></i></div>
+          <div class="dropdown-menu w-xxl animated fadeInUp p-a-0">
+              <form class="navbar-form form-inline" action="/search" role="search">
+                  <div class="form-group l-h m-a-0">
+                      <div class="input-group">
+                      <input type="text" name="q" class="form-control" placeholder="Find Asian Dramas, Movies, Actors and more...">
+                      <span class="input-group-btn"><button type="submit" class="btn b-a no-b-l no-shadow"><i class="fa fa-search"></i></button></span></div>
+                  </div>
+              </form>
+          </div>
+      </li>
+          <script type="text/template" id="nav-notifications"></script>
+          <li class="nav-item"><a class="nav-link m-l-sm" href="/signup"><span>Sign up</span></a></li>
+          <li class="nav-item"><a class="nav-link nav-login m-l-sm" href="/signin"><span>Log in</span></a></li>
+      </ul>
+  
+  <div class="collapse navbar-toggleable-sm" id="top-nav" data-pjax=""> <form class="navbar-form form-inline hidden-md-down pull-right pull-none-sm navbar-item v-m" action="/search" role="search">
+  <div class="form-group l-h m-a-0"> <div class="input-group input-group-sm"> <input type="text" name="q" class="form-control p-x b-a rounded" placeholder="Find Asian Dramas, Movies, Actors and more..."> <span class="input-group-btn"><button type="submit" class="btn b-a rounded no-b-l no-shadow"><i class="fa fa-search"></i></button></span></div>
+  </div> </form> <ul class="nav navbar-nav pull-left nav-active-border b-blue">
+  <li class="nav-item mdl-dropdown dropdown">
+  <a class="nav-link dropdown-toggle" href="" data-toggle="dropdown"><span class="nav-text">Home</span></a>
+  <div class="dropdown-menu">
+  <div class="mdl-dropdown-content">
+  <a href="/feeds" class="dropdown-item"><span class="nav-text">Feeds</span></a>
+  <a href="/episode-calendar" class="dropdown-item"><span class="nav-text">Calendar</span></a>
+  <a href="/articles" class="dropdown-item"><span class="nav-text">Articles</span></a>
+  <a href="/trailers" class="dropdown-item"><span class="nav-text">Trailers</span></a>
+  </div>
+  </div>
+  </li>
+  <li class="nav-item mdl-dropdown dropdown"> <a class="nav-link dropdown-toggle" href="" data-toggle="dropdown"><span class="nav-text">Explore</span></a> <div class="dropdown-menu" style="min-width: 350px;padding:0;"> <div class="mdl-dropdown-content">
+  <div class="row" style="display: flex;">
+  <div class="col-sm-6 col-lg-6 explore-tv">
+  <div class="dropdown-header"><b>TV Shows</b></div>
+  <a class="dropdown-item" href="/shows/top">Top Shows</a>
+  <a class="dropdown-item" href="/shows/popular">Most Popular Shows</a>
+  <a class="dropdown-item" href="/shows/variety">Variety Shows</a>
+  <a class="dropdown-item" href="/shows/newest">Newest</a>
+  <a class="dropdown-item" href="/shows/upcoming">Upcoming</a>
+  <a class="dropdown-item" href="/reviews/shows">Reviews</a>
+  <a class="dropdown-item" href="/recommendations/shows">Recommendations</a>
+  <div class="dropdown-divider"></div>
+  <a class="dropdown-item" href="/recommendations" rel="external nofollow">Recommended For You</a>
+  <a class="dropdown-item" rel="external nofollow" href="/add/title">Add New Title</a>
+  </div>
+  <div class="col-sm-6 col-lg-6 explore-content">
+  <div class="dropdown-header"><b>Movies</b></div>
+  <a class="dropdown-item" href="/movies/top">Top Movies</a>
+  <a class="dropdown-item" href="/movies/popular">Most Popular Movies</a>
+  <a class="dropdown-item" href="/movies/newest">Newest</a>
+  <a class="dropdown-item" href="/movies/upcoming">Upcoming</a>
+  <a class="dropdown-item" href="/reviews/movies">Reviews</a>
+  <a class="dropdown-item" href="/recommendations/movies">Recommendations</a>
+  </div>
+  <div class="col-sm-6 col-lg-6 explore-content">
+  <div class="dropdown-header"><b>People</b></div>
+  <a class="dropdown-item" href="/people/top">Top Actors</a>
+  <a class="dropdown-item" rel="external nofollow" href="/add/person">Add New Person</a>
+  </div>
+  <div class="col-sm-6 col-lg-6">
+  <div class="p-y p-r" style="width: 340px;">
+  <a href="/stats/leaderboards/monthly" class="utm-event" target="_blank" rel="nofollow"> <div style="position: relative;"> <img class="img-responsive lazy" width="300" height="205" data-src="https://i.mydramalist.com/X73lp_3f.png"> </div> <b class="text-primary block m-t-sm"><span class="tag tag-primary">Wanted</span>Who's the most loved Actor on MDL?</b> <div class="text-muted">Featured</div>
+  </a></div>
+  </div>
+  </div> </div> </div>
+  </li>
+  <li class="nav-item mdl-dropdown dropdown"> <a class="nav-link dropdown-toggle" href="/discussions" data-toggle="dropdown"><span class="nav-text">Community</span> <span class="tag tag-success">NEW</span></a> <div class="dropdown-menu"> <div class="mdl-dropdown-content"> <a class="dropdown-item" href="/feeds">Feeds</a>
+  <a class="dropdown-item" href="/list">Lists</a> <a class="dropdown-item" href="/discussions">Forums</a>
+  <a class="dropdown-item" href="/contributors">Contributors</a>
+  <a class="dropdown-item" href="/games">Games <span class="tag tag-success">NEW</span></a>
+  <a class="dropdown-item" href="/stats/leaderboards">Stars Leaderboard <span class="tag tag-success">NEW</span></a> </div> </div>
+  </li>
+  <li class="nav-item dropdown"> <a class="nav-link" href="/episode-calendar"><span class="nav-text">Calendar</span></a>
+  </li>
+   </ul>
+  </div>
+  </div>
+  </div>
+  </div>
